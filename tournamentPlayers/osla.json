@@ -1,0 +1,11 @@
+{
+	"class": "players.simple.OSLAHeuristic",
+	"heuristic": {
+		"class": "players.heuristics.ScoreHeuristic",
+		"maxLoot": 500,
+		"BULLET CARDS": -1.0,
+		"BULLETS PLAYER": 0.5,
+		"BULLETS ENEMY": 0.0,
+		"LOOT": 0.5
+	}
+}

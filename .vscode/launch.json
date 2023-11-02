@@ -1,0 +1,171 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Game",
+            "request": "launch",
+            "mainClass": "core.Game",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "PyTAG",
+            "request": "launch",
+            "mainClass": "core.PyTAG",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "ForwardModelTester",
+            "request": "launch",
+            "mainClass": "evaluation.ForwardModelTester",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "ProgressiveLearner",
+            "request": "launch",
+            "mainClass": "evaluation.ProgressiveLearner",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "RunGames",
+            "request": "launch",
+            "mainClass": "evaluation.RunGames",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "RunGamesLab3",
+            "request": "launch",
+            "mainClass": "evaluation.RunGames",
+            "projectName": "ModernBoardGame",
+            "args": [
+                "config=json/experiments/lab03.json"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "ParameterSearch",
+            "request": "launch",
+            "mainClass": "evaluation.optimisation.ParameterSearch",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "SkillLadder",
+            "request": "launch",
+            "mainClass": "evaluation.tournaments.SkillLadder",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "GameType",
+            "request": "launch",
+            "mainClass": "games.GameType",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "ColtExpressGame",
+            "request": "launch",
+            "mainClass": "games.coltexpress.ColtExpressGame",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "PandemicGame",
+            "request": "launch",
+            "mainClass": "games.pandemic.PandemicGame",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "Frontend",
+            "request": "launch",
+            "mainClass": "gui.Frontend",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "FrontendSimple",
+            "request": "launch",
+            "mainClass": "gui.FrontendSimple",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "BoxPlot",
+            "request": "launch",
+            "mainClass": "gui.plotting.BoxPlot",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "LineChart",
+            "request": "launch",
+            "mainClass": "gui.plotting.LineChart",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "PlayerType",
+            "request": "launch",
+            "mainClass": "players.PlayerType",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "LogisticLearner",
+            "request": "launch",
+            "mainClass": "players.learners.LogisticLearner",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "SVMLearner",
+            "request": "launch",
+            "mainClass": "players.learners.SVMLearner",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "SVMValidator",
+            "request": "launch",
+            "mainClass": "players.learners.SVMValidator",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "ActionTreeTesting",
+            "request": "launch",
+            "mainClass": "utilities.ActionTreeTesting",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "ExtractJSONSummary",
+            "request": "launch",
+            "mainClass": "utilities.ExtractJSONSummary",
+            "projectName": "ModernBoardGame"
+        },
+        {
+            "type": "java",
+            "name": "FileReducer",
+            "request": "launch",
+            "mainClass": "utilities.FileReducer",
+            "projectName": "ModernBoardGame"
+        }
+    ]
+}

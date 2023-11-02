@@ -1,12 +1,12 @@
 {
-  "game" : "TicTacToe",
-  "nPlayers" : 2,
-  "mode" : "exhaustive",
-  "matchups" : 100,
-  "verbose" : false,
-  "seed" : 740234,
-  "listener" : "json/listeners/basiclistener.json",
-  "destDir" : "outputdir",
-  "output" : "outputdir/Tournament.log",
-  "playerDirectory" : "tournamentPlayers"
+  "game": "TicTacToe",
+  "nPlayers": 2,
+  "mode": "exhaustive",
+  "matchups": 5,
+  "verbose": false,
+  "seed": 740234,
+  "listener": "json/listeners/basiclistener.json",
+  "destDir": "results/lab2-exe3",
+  "output": "results/lab2-exe3/Tournament.log",
+  "playerDirectory": "tournamentPlayers"
 }
