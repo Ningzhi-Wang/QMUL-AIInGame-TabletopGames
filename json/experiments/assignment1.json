@@ -5,8 +5,8 @@
     "matchups": 500,
     "verbose": false,
     "listener": "json/listeners/basiclistener.json",
-    "destDir": "results/lab3-exe3",
-    "output": "results/lab3-exe3/CantStop.log",
-    "playerDirectory": "json/players/lab03",
+    "destDir": "results/assignment1",
+    "output": "results/assignment1/SushiGo.log",
+    "playerDirectory": "json/players/assignment1",
     "seed": 740234
 }

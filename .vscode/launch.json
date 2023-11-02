@@ -57,6 +57,16 @@
         },
         {
             "type": "java",
+            "name": "Assignment1",
+            "request": "launch",
+            "mainClass": "evaluation.RunGames",
+            "projectName": "ModernBoardGame",
+            "args": [
+                "config=json/experiments/assignment1.json"
+            ]
+        },
+        {
+            "type": "java",
             "name": "ParameterSearch",
             "request": "launch",
             "mainClass": "evaluation.optimisation.ParameterSearch",
