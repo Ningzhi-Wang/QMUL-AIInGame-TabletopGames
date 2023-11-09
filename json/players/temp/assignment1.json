@@ -1,0 +1,16 @@
+{
+	"class": "players.assignment1.GroupKParams",
+	"K": 1.4,
+	"rolloutLength": 5,
+	"maxTreeDepth": 20,
+	"V": 1,
+	"MASTTemperature": 5.0,
+	"MASTDefaultValue": 0.0,
+	"MASTEpsilon": 0.2,
+	"MASTGamma": 0.5,
+	"heuristic": {
+		"class": "players.heuristics.ScoreHeuristic"
+	},
+	"budgetType": "BUDGET_FM_CALLS",
+	"budget": 50
+}
